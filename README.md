@@ -6,17 +6,27 @@ Does not depend on any libraries and implementation of the minimum.
 Functions
 ---------
 
-**indexOf**
+**indexOf(arr, search)**
 
 ```javascript
 var i = 2;
 var arr = [0, 1, 2, 3, 4];
-
 var index = indexOf(arr, i);
-console.log(index); // 2
 ```
 
-**getElementsByClassName**
+**getElementsByClassName(className, root)**
+
+```html
+<ul id="parent">
+  <li class="child"></li>
+  <li class="child"></li>
+  <li class="child"></li>
+</ul>
+<script>
+var parent = document.getElementById('parent');
+var children = getElementsByClassName('child', parent);
+</script>
+```
 
 **querySelector**
 
