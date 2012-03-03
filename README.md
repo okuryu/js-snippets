@@ -36,7 +36,7 @@ Support Browsers
 ----------------
 
 * Internet Explorer 6+
-* Firefox 3.6+
+* Mozilla Firefox 3.6+
 * Google Chrome
 * Safari 5+
 * Opera 11+
