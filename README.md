@@ -31,3 +31,12 @@ var children = getElementsByClassName('child', parent);
 **querySelector**
 
 **querySelectorAll**
+
+Support Browsers
+----------------
+
+* Internet Explorer 6+
+* Firefox 3.6+
+* Google Chrome
+* Safari 5+
+* Opera 11+
