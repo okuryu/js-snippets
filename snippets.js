@@ -88,3 +88,11 @@ querySelectorAll = document.querySelectorAll ? function (selector, root) {
 
     return elements;
 };
+
+function contains(node, needle) {
+    if (node.contains) {
+        return node.contains(needle);
+    } else {
+        return (node.compareDocumentPosition(needle) === 20);
+    }
+}

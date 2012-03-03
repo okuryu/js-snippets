@@ -54,6 +54,23 @@ var elements = querySelectorAll('.child');
 </script>
 ```
 
+**contains(node, needle)**
+
+```html
+<ul id="parent">
+  <li id="child1"></li>
+  <li id="child2"></li>
+  <li id="child3"></li>
+</ul>
+<script>
+var parent = querySelector('#parent');
+var child1 = querySelector('#child1');
+if (contains(parent, child1)) {
+  alert('contains!');
+}
+</script>
+```
+
 Support Browsers
 ----------------
 

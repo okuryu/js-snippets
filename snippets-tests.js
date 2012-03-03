@@ -30,6 +30,8 @@ YUI().use('test-console', function (Y) {
             Assert.areEqual(querySelector('.a'), this.c3);
             Assert.areEqual(querySelector('.b'), this.c3);
             Assert.areEqual(querySelector('.c'), this.c3);
+            Assert.isFalse(contains(querySelector('#c7'), querySelector('#c6')));
+            Assert.isTrue(contains(querySelector('#c7'), querySelector('#c8')));
         }
     });
     Y.Test.Runner.add(Y.snippets.tests.testCase);
