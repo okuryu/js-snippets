@@ -28,9 +28,31 @@ var children = getElementsByClassName('child', parent);
 </script>
 ```
 
-**querySelector**
+**querySelector(selector, root)**
 
-**querySelectorAll**
+```html
+<ul id="parent">
+  <li class="child"></li>
+  <li class="child"></li>
+  <li class="child"></li>
+</ul>
+<script>
+var element = querySelector('#parent');
+</script>
+```
+
+**querySelectorAll(selector, root)**
+
+```html
+<ul id="parent">
+  <li class="child"></li>
+  <li class="child"></li>
+  <li class="child"></li>
+</ul>
+<script>
+var elements = querySelectorAll('.child');
+</script>
+```
 
 Support Browsers
 ----------------
