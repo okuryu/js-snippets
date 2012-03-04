@@ -3,6 +3,9 @@ The Snippets of JavaScript
 
 Does not depend on any libraries and implementation of the minimum.
 
+**IMPORTANT: All functions does not check parameters that applied.
+It's need to apply valid parameters.**
+
 Functions
 ---------
 
