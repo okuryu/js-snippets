@@ -82,3 +82,8 @@ Support Browsers
 * Google Chrome
 * Safari 5+
 * Opera 11+
+
+Author
+------
+
+* Ryuichi Okumura ([@okuryu](https://github.com/okuryu))
