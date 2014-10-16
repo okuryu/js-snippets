@@ -87,3 +87,7 @@ Author
 ------
 
 * Ryuichi Okumura ([@okuryu](https://github.com/okuryu))
+
+## License
+
+This code is available under the [BSD license](LICENSE).
